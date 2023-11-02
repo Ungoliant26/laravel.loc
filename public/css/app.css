@@ -2,10 +2,6 @@ body {
     background: lightslategrey;
 }
 
-footer.container {
-    width: 30%;
-}
-
 #greeting {
     display: block;
     text-align: center;
