@@ -17,9 +17,9 @@
                     <li class="nav-item"><a class="nav-link" href="#">
                             <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
                         </a></li>
-                    <li class="nav-item"><a class="nav-link" href="/">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/about">О нас</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Контакты</a></li>
                             <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
                         </a></li>
                 </ul>

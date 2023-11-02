@@ -1,11 +1,7 @@
 <div class="alert alert-success">
-    <div class="container">
-        <h1 class="alert-heading">Приветствуем на нашем сайте всех бедолаг</h1>
+    <div class="container" id="greeting">
+        <h1>Приветствуем на нашем сайте всех бедолаг</h1>
 
-        @php
-            $content = file_get_contents('http://loripsum.net/api');
-        @endphp
-
-        <p class="alert-heading">{!! $content !!}</p>
+        <p>Оставайтесь с нами</p>
     </div>
 </div>

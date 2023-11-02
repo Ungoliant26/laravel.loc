@@ -5,3 +5,13 @@ body {
 footer.container {
     width: 30%;
 }
+
+#greeting {
+    display: block;
+    text-align: center;
+}
+
+#submitUser {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
