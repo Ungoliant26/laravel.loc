@@ -20,6 +20,7 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Главная</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">О нас</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('contactData') }}">Сообщения</a></li>
                             <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
                         </a></li>
                 </ul>
